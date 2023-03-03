@@ -21,12 +21,15 @@ import Voot from "./class_based/Voot";
 import Vivo from "./class_based/Vivo";
 import Samsung from "./class_based/Samsung";
 import Apple from "./class_based/Apple";
+import Menu from "./function_based/Menu";
+import "./global.css";
+import "./dummy.css";
 
 const App=()=> {
  return(
     <>
-  <Nav/>
-  <Body/>
+  {/* <Nav/> */}
+  {/* <Body/>
   <Profile/>
   <Foot/>
   <Chat/>
@@ -44,7 +47,7 @@ const App=()=> {
   <Voot/>
   <Vivo/>
   <Samsung/>
-  <Apple/>
+  <Apple/> */}
   </>
  )
 }
