@@ -1,0 +1,30 @@
+
+.nav{
+    height: 75px;
+    align-items: center;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    background-color: rgba(23, 18, 18, 0.886);
+    color: beige;
+}
+.menu ul{
+    display: flex;
+    width: 350px;
+    justify-content: space-around;
+    align-items: center;
+
+}
+.menu ul li a{
+    text-decoration: none;
+    color: beige;
+    /* padding: 20px; */
+}
+.menu ul li{
+    list-style: none;
+}
+img{
+    height: 60px;
+    width: 100px;
+    padding: 20px;
+}
