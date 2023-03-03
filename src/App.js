@@ -25,9 +25,11 @@ import Menu from "./function_based/Menu";
 import "./global.css";
 import "./dummy.css";
 
+
 const App=()=> {
  return(
     <>
+    <Search/>
   {/* <Nav/> */}
   {/* <Body/>
   <Profile/>

@@ -1,7 +1,16 @@
 import React, { Component } from 'react'
+import Refresh from './Refresh';
+import Status from './Status';
 const Search=()=>{
     return(
-        <h2>Search</h2>
+        <>
+        <div className='search'>
+        <Status/>
+        <Refresh/>
+        </div>
+       
+        
+        </>
     )
 }
 export default Search;
