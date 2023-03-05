@@ -1,0 +1,49 @@
+#flip ul li{
+    list-style: none;
+    margin-left: 50px;
+    align-items: center;
+
+}
+#flip ul{
+    display: flex;
+    align-items: center;
+
+}
+#flip ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+#flip{
+    background-color:#2874f0;
+    height: 75px;
+}
+#flip ul li input{
+    width: 350px;
+    height: 35px;
+}
+#flip ul li button{
+    width: 100px;
+    height: 35px;
+    background-color: white;
+    border: white;
+}
+.logo{
+    align-items: center;
+
+}
+/* body {
+    background-image: url(./flipkart.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+} */
+#flip{
+    margin-top: -15px;
+    margin-left: -10px;
+    width: 1538px;
+}
+
+
+
+
+

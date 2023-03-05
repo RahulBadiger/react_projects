@@ -1,0 +1,26 @@
+.myntra ul li{
+    list-style: none;
+}
+.myntra ul li a{
+    text-decoration: none;
+}
+.myntra ul{
+    display: flex;
+    align-items: center;
+    gap: 50px;
+  height: 75px;
+ 
+}
+.myntra{
+    margin-top: -15px;
+    margin-left: -10px;
+    width: 1538px;
+    background-color: rgba(247, 236, 236, 0.966);
+}
+img{
+    height: 60px;
+}
+.myntra ul li input{
+    width: 250px;
+    height: 40px;
+}

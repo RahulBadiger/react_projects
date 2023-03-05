@@ -1,0 +1,61 @@
+.amazon ul li{
+    list-style: none;
+    color: white;
+}
+.amazon ul{
+    display: flex;
+    align-items: center;
+    height: 75px;
+    justify-content: space-around;
+    background-color: rgb(49, 46, 46);
+    
+    
+}
+.amazon{
+    margin-top: -15px;
+    margin-left: -10px;
+    width: 1538px;
+    
+}
+img{
+    height: 60px;
+}
+.home{
+    background-color: rgba(211, 211, 211, 0.923);
+    color: black;
+    border: solid 1px transparent;
+    height: 40px;
+}
+.sign{
+    background-color: transparent;
+    color: whitesmoke;
+    border:solid 1px transparent;
+}
+.search{
+    
+    border: solid 1px transparent;
+    height: 40px;
+    width: 450px;
+}
+.sub ul{
+    display: flex;
+    justify-content: space-evenly;
+    height: 30px;
+    
+    background-color: rgba(0, 0, 0, 0.759);
+    align-items: center;
+    
+}
+.sub ul li{
+    list-style: none;
+}
+.sub{
+    margin-top: -17px;
+    margin-left: -10px;
+    width: 1538px;
+}
+.sub ul li button{
+    background-color: transparent;
+    color: whitesmoke;
+    border:solid 1px transparent;
+}

@@ -1,0 +1,34 @@
+.zomato ul li{
+    list-style: none;
+}
+.zomato ul li a{
+    text-decoration: none;
+}
+.zomato ul{
+    display: flex;
+    align-items: center;
+    gap: 80px;
+    height: 75px;
+}
+.zomato ul li a input{
+    width: 550px;
+    height: 40px;
+    background-color: transparent;
+    border: solid ghostwhite;
+    color: black;
+}
+.zomato{
+    margin-top: -15px;
+    margin-left: -10px;
+    width: 1538px;
+}
+.zomato ul li a button{
+    height: 40px;
+    width: 100px;
+    background-color: transparent;
+    border: solid ghostwhite;
+    color: black;
+}
+img{
+    height: 60px;
+}

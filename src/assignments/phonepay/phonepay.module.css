@@ -1,0 +1,29 @@
+.phone ul li{
+    list-style: none;
+    font-size: 18px;
+   
+}
+.phone ul li:hover{
+    color: purple;
+   
+}
+.phone ul li a{
+    text-decoration: none;
+}
+
+.phone ul{
+    display: flex;
+    align-items: center;
+    gap: 80px;
+    height: 75px;
+
+}
+img{
+    height: 60px;
+}
+.phone{
+    margin-top: -15px;
+    margin-left: -10px;
+    width: 1538px;
+
+}
