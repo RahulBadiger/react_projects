@@ -19,11 +19,11 @@ const Flip = () => {
                 <a href="">Become a Seller</a>
             </li>
             <li>
-                <a href="" >more</a>
+                <a href="" >More</a>
                 
             </li>
             <li>
-                <a href="" >cart </a>
+                <a href="" >Cart </a>
                 
             </li>
         </ul>

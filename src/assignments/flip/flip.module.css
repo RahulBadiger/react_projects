@@ -20,11 +20,12 @@
 }
 #flip ul li input{
     width: 350px;
-    height: 35px;
+    height: 45px;
+    align-items: center;
 }
 #flip ul li button{
-    width: 100px;
-    height: 35px;
+    width: 120px;
+    height: 45px;
     background-color: white;
     border: white;
 }
@@ -32,11 +33,7 @@
     align-items: center;
 
 }
-/* body {
-    background-image: url(./flipkart.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-} */
+
 #flip{
     margin-top: -15px;
     margin-left: -10px;
