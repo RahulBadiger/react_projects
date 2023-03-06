@@ -12,14 +12,15 @@ import Phonepay from "./assignments/phonepay/Phonepay";
 import Flip from './assignments/flip/Flip';
 
 
+
 const App=()=> {
  return(
     <>
-    <Flip/>
+    {/* <Flip/> */}
     {/* <Phonepay/> */}
     {/* <Zomato/> */}
     {/* <Myntra/> */}
-    {/* <Amazon/> */} 
+    <Amazon/> 
   {/* <Nav/> */}
    
   </>
