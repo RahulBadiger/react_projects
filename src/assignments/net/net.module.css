@@ -1,0 +1,47 @@
+.block1 ul {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+.block1 ul li {
+   list-style: none;
+   color: white;
+}
+.block1 ul li a{
+    text-decoration: none;
+    color: white;
+ }
+
+
+.block2 ul {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+.block2 ul li {
+    list-style: none;
+    color: white;
+ }
+ .block2 ul li a{
+    text-decoration: none;
+    color: white;
+ }
+ .main{
+    display: flex;
+    align-items: center;
+    height: 75px;
+    background-color: black;
+    margin-top: -15px;
+    margin-left: -10px;
+    width: 1538px;
+
+ }
+ input{
+    margin-left: 150px;
+    height: 30px;
+    width: 200px;
+
+ }
+ img{
+    height: 60px;
+ }
