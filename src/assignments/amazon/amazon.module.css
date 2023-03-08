@@ -25,6 +25,7 @@ img{
     color: black;
     border: solid 1px transparent;
     height: 40px;
+    
 }
 .sign{
     background-color: transparent;
@@ -58,4 +59,8 @@ img{
     background-color: transparent;
     color: whitesmoke;
     border:solid 1px transparent;
+}
+.icon{
+    /* color: blue; */
+    font-size: 20px;
 }

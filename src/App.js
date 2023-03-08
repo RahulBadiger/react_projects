@@ -10,17 +10,21 @@ import Myntra from './assignments/myntra/Myntra';
 import Zomato from './assignments/zomato/Zomato';
 import Phonepay from "./assignments/phonepay/Phonepay";
 import Flip from './assignments/flip/Flip';
+import Net from './assignments/net/Net';
+
 
 
 
 const App=()=> {
  return(
     <>
+    <Net/>
+
     {/* <Flip/> */}
     {/* <Phonepay/> */}
     {/* <Zomato/> */}
     {/* <Myntra/> */}
-    <Amazon/> 
+    {/* <Amazon/>  */}
   {/* <Nav/> */}
    
   </>

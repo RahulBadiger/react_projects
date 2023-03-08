@@ -1,5 +1,12 @@
 import React from 'react'
 import STYLE from "./amazon.module.css"
+<style
+  dangerouslySetInnerHTML={{
+    __html:
+      "\n  @import url('https://fonts.googleapis.com/css2?family=Bungee+Shade&family=Ewert&family=Fruktur&family=Indie+Flower&family=Lobster&family=Mogra&family=Passions+Conflict&family=Rubik+Bubbles&display=swap');\n"
+  }}
+/>
+
 
 const Amazon = () => {
   return (
@@ -15,6 +22,11 @@ const Amazon = () => {
         </li>
         <li>
           <input className={STYLE.search} type="search" placeholder='Search Amazon.in' />
+          <link
+  rel="stylesheet" className={STYLE.icon}
+  href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
+/>
+
         </li>
         <li>lang</li>
         <li><button className={STYLE.sign}>Sign in</button></li>
