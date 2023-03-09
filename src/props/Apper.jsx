@@ -1,9 +1,10 @@
 import React from 'react'
 import Naver from "./Naver.jsx"
+import image from "./car.jpg"
 
 const Apper = () => {
   return (
-    <Nav girl="shriya" />
+    <img src={image} alt="ok" />
   )
 }
 
