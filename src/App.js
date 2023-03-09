@@ -11,6 +11,7 @@ import Zomato from './assignments/zomato/Zomato';
 import Phonepay from "./assignments/phonepay/Phonepay";
 import Flip from './assignments/flip/Flip';
 import Net from './assignments/net/Net';
+import Naver from './props/Naver';
 
 
 
@@ -18,7 +19,8 @@ import Net from './assignments/net/Net';
 const App=()=> {
  return(
     <>
-    <Net/>
+    <Naver/>
+    {/* <Net/> */}
 
     {/* <Flip/> */}
     {/* <Phonepay/> */}

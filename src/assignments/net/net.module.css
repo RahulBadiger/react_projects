@@ -5,12 +5,32 @@
 }
 .block1 ul li {
    list-style: none;
-   color: white;
+   color:black;
 }
+
 .block1 ul li a{
+    
     text-decoration: none;
     color: white;
  }
+.block1 ul li a:hover{
+   text-decoration: underline transparent;
+   border-bottom: 3px solid red;
+  
+}
+
+div a::after{
+   content: "";
+   height: 3px;
+   width: 0px;
+   margin: auto;
+   display: block;
+}
+div p::after{
+   background-color: red;
+   width: 100%;
+   transform: width 0.5s linear;
+}
 
 
 .block2 ul {
@@ -25,6 +45,12 @@
  .block2 ul li a{
     text-decoration: none;
     color: white;
+ }
+ .block2 ul li a :hover{
+   text-decoration: underline transparent;
+   border-bottom: 3px solid red;
+   transition: 3000ms;
+   
  }
  .main{
     display: flex;

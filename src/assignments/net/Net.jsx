@@ -26,6 +26,7 @@ const Net = () => {
         </ul>
     </div>  
    </div>
+  
     </>
   )
 }
