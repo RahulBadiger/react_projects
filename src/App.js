@@ -8,6 +8,7 @@ import Amazon from './assignments/amazon/Amazon';
 import List from "./List";
 import JSON from "./data.json"
 import Course from "./function_based/Course";
+import States from "./class_based/States";
 // import Myntra from './assignments/myntra/Myntra';
 // import Zomato from './assignments/zomato/Zomato';
 // import Phonepay from "./assignments/phonepay/Phonepay";
@@ -19,13 +20,15 @@ import Course from "./function_based/Course";
 const App=()=> {
  return(
     <>
-    <Course
+
+    <States/>
+    {/* <Course
     coursedetails={{
       coursename:"Java full stack",
       courseavail:true,
       coursedura:" 6 months"
     }}
-    />
+    /> */}
     {/* <List payload={JSON}/> */}
     {/* <Naver/> */}
     {/* <Net/> */}
