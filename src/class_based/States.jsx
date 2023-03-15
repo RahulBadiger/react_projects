@@ -16,8 +16,8 @@ class States extends Component{
         return(
             <>
             <h1><ul>
-            {this.state.skills.map((x)=>{
-                return <li>(x)</li>
+            {this.state.skills.map((a)=>{
+                return <li>{a}</li>
             })}
                 </ul></h1>
             </>
