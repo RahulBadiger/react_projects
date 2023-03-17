@@ -1,10 +1,22 @@
-import React from 'react'
-import Toast from './function_based/Toast';
+import React, { Component } from 'react'
 
-const App = () => {
-  return (
-    <div><Toast/></div>
-  )
+export default class App extends Component {
+    constructor(){
+        super()
+        this.state={username:""}
+    }
+    componentDidMount(){
+        let input=document.querySelector('input')
+        input.addEventListener=('keypress',(e)=>{
+            this.setState({username:e.target.value})
+        })
+    }
+  render() {
+    return (
+      <div>
+        <h1>{this.state.username}</h1>
+        <input type="text" />
+      </div>
+    )
+  }
 }
-
-export default App
