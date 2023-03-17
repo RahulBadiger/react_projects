@@ -1,10 +1,10 @@
-import React, { Component } from 'react'
-import Hooks from './function_based/Hooks'
+import React from 'react'
+import Toast from './function_based/Toast';
 
-export default class App extends Component {
-  render() {
-    return (
-      <div><Hooks/></div>
-    )
-  }
+const App = () => {
+  return (
+    <div><Toast/></div>
+  )
 }
+
+export default App
