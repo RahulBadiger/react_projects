@@ -1,0 +1,8 @@
+.main{
+    display: flex;
+    border: solid red 2px;
+    height: 75px;
+    justify-content: center;
+    gap: 100px;
+    background-color: blanchedalmond;
+}
