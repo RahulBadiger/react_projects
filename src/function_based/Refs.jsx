@@ -1,32 +1,29 @@
-import React ,{useState}from 'react'
-import photo from "./car.jpg"
-import { useRef } from 'react'
+import React from 'react'
+import { useState } from 'react';
 
 const Refs = () => {
-    let[img,setImg]=useState(photo)
-    let[loading,setLoading]=useState(true)
-    let imgRef=useRef()
-    let handleChange=()=>{
-        if(loading){
-            setLoading(!true)
-        imgRef.current.style.borderRadius="25% "
-        imgRef.current.style.border="solid 4px red"
-        
+    // let iconRef=useRef()
+    let[load,setLoad]=useState(true)
+    let handChan=()=>{
+        if(load==true){
+            setLoad(!true)
         }
         else{
-            {
-                setLoading(!false)
-                imgRef.current.style.borderRadius="0% "
-                imgRef.current.style.border="none"
-                
-                }
+            setLoad(!false)
         }
+
     }
+
   return (
-    <>
-    <img src={img} alt="" ref={imgRef}  /> <br /><br />
-    <button onClick={handleChange}>click</button>
-    </>
+   <>
+   <input type={load? "text":"password"}   style={{fontSize:"30px"}}/>
+   {/* <button>Change</button> */}
+   <span class="material-symbols-outlined" style={{marginLeft:"-40px"}}  onClick={handChan} >
+visibility
+</span>
+<br /><br />
+{/* <button onClick={handChan} style={{fontSize:"20px"}}>{load? "on":"off"}</button> */}
+   </>
   )
 }
 
