@@ -1,12 +1,22 @@
 import React from 'react'
-import Refs from './function_based/Refs'
-import Ref1 from './function_based/Ref1';
+import { BrowserRouter as Router,Routes,Route } from 'react-router-dom';
+import Home1 from './Routers1/Rcomponents/Home1';
+import Nav1 from './Routers1/Rcomponents/Nav1';
+import Signup1 from './Routers1/Rcomponents/Signup1';
+
+
 
 const App = () => {
   return (
-    <div>
-      <Ref1/>
-    </div>
+    <Router>
+        <Routes>
+            <Route path='/' element={<Home1/>}></Route>
+            <Route path='/Nav' element={<Nav1></Nav1>}></Route>
+            <Route path='/sign' element={<Signup1></Signup1>}></Route>
+
+        </Routes>
+    </Router>
+
   )
 }
 
